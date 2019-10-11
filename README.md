@@ -12,7 +12,7 @@ Dockerize simple apps using NodeJS, NGINX, and PM2  process manager for producti
 docker-compose up -d --build
 ```
 
-**useful commands**
+## Useful Commands
 $ docker exec -it <container-id> pm2 monit  
 $ docker exec -it <container-id> pm2 list 	 
 $ docker exec -it <container-id> pm2 show  
