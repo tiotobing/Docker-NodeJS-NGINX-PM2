@@ -5,7 +5,7 @@ Dockerize simple apps using NodeJS, NGINX, and PM2  process manager for producti
    - clone project
    - cd Docker-NodeJS-NGINX-PM2
    - edit Dockerfile, if you have PM2 credential add to Dockerfile but feel free to remove PM2 cred if not desired
-   - on nginx/defauld.conf, add your domain/IP addr
+   - on nginx/default.conf, add your domain/IP addr
 
 ## Usage
 ```bash
