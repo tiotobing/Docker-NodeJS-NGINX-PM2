@@ -1,0 +1,12 @@
+version: '3'
+services:
+  nodejs: 
+    build: ./
+    image: tiotobing/nodejs
+    container_name: apps
+  nginx: 
+    build: ./nginx
+    image: tiotobing/nginx
+    container_name: nginx
+    ports:
+      - 80:80
